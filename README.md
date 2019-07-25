@@ -1,4 +1,15 @@
-# video-browser
+# Vue Youtube Browser
+
+
+
+## About
+
+Vue.js application that demonstrates the following:
+  - External API calls with Axios (Youtube Data API)
+  - Application level state management
+  - Sharing data between components (passing/emitting props)
+  - Bootstrap and custom CSS styling
+  
 
 ## Project setup
 ```
