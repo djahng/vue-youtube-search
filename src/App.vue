@@ -1,5 +1,7 @@
 <template>
   <div class="container">
+    <Header />
+    
     <SearchBar @searchTermChange="onSearchTermChange" />
 
     <div class="row">
@@ -12,6 +14,7 @@
 <script>
 import axios from 'axios';
 
+import Header from './components/Header';
 import SearchBar from './components/SearchBar';
 import VideoList from './components/VideoList';
 import VideoDetail from './components/VideoDetail';
@@ -21,6 +24,7 @@ const API_KEY = process.env.VUE_APP_YOUTUBE_API_KEY;
 export default {
   name: 'App',
   components: {
+    Header,
     SearchBar,
     VideoList,
     VideoDetail
